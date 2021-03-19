@@ -7,7 +7,7 @@
 
 
 ## Game Description
-Inspired by a TV series, Deep in Abyss is an open-world text-based RPG about the adventure into the void. The giant void has been on the center of the island for several millions of years. No one knows what is inside the void. Every now and then, brave adventurers group together and desire to reveal the secrets of the void. However, never was there one that could return after entering it.
+Inspired by a TV series, Deep in Abyss is an open-world text-based RPG about the adventure into the void. The giant void has been in the center of the island for several millions of years. No one knows what is inside the void. Every now and then, brave adventurers group together and desire to reveal the secrets of the void. However, never was there one that could return after entering it.
 
 Britney's mother was an adventurer who entered the void before she was ever heard again. Everyone believed that she was already dead, but Britney insisted that she was alive somewhere deep in the abyss. With a determined will, she decided to go on a journey to find her mother. She sneaked into the void on a dark, foggy night. Without causing the attention of the entrance guards…
 
