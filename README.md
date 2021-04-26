@@ -83,9 +83,11 @@ What will happen to Britney? Will she survive in the void? Will she defeat the K
 
 
 ## Compilation and Execution Instructions
-- git clone https://github.com/adriantam123/ENGG1340_Sem2_Project_Group105.git
-- cd ENGG1340_Sem2_Project_Group105
-- ./Libraries/CMake/bin/cmake . && make && ./pokemon
+```
+git clone https://github.com/adriantam123/ENGG1340_Sem2_Project_Group105.git
+cd ENGG1340_Sem2_Project_Group105
+./Libraries/CMake/bin/cmake . && make && ./pokemon
+```
 
 
 
