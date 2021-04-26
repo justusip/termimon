@@ -195,6 +195,10 @@ const vector<Pokemon> Arena::ENEMIES_CLIFFS = {
         }
 };
 
+Arena::Arena() {
+
+}
+
 void Arena::onStart() {
 }
 
