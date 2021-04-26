@@ -38,16 +38,16 @@ What will happen to Britney? Will she survive in the void? Will she defeat the K
 
 ### Gameplay system
 - Actual damage dealt with by the enemies is dynamic and will be affected by a random percentage (e.g. +5% / -5%).
-- Buffs, debuffs, and critical rates will be implemented into the game. The effects of various buffs and debuffs are randomized. And the chances for critical hits will         increase with the critical rate of the character.
+- Buffs, debuffs, and critical rates will be implemented into the game. The effects of various buffs and debuffs are randomized.
 - These features fulfill the requirement of Generation of random game sets or events.
 
 ### Inventory System
-- Weapons and items acquired by looting from monsters or purchasing from the store can be stored inside the inventory system.
+- Items purchased from the stores can be stored inside the inventory system.
 - Attributes such as durability and damage can also be stored per item.
 - This feature fulfills the requirement of Data structures for storing game status.
 
 ### Game Saving/Loading System
-- The game’s current state including the player’s progress and status such as health and experience can be saved into an external file. It can then be retrieved next time the   game starts.
+- The game’s current state including the player’s progress and status such as health and experience can be saved into an external file. It can then be retrieved next time the game starts.
 - Different saving slots are available such that the players can restart the adventure without losing previous data.
 - malloc(), free() and delete() keywords will be used when handling data structures like plot dialogue and damage output.
 - This feature fulfills the requirement of Data structures for storing game status, Use of dynamic memory management and File input/output.
