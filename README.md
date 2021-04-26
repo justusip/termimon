@@ -7,7 +7,7 @@
 
 
 ## Game Description
-Inspired by a TV series, Pokemon (Untold Tales of the Void) is an open-world text-based RPG about the adventure in a fantasy world full of Pokemons. A giant void has been in the center of the island for several millions of years. No one knows clearly what is inside the void. Legends have said that only the most worthy Pokemon trainers can survive and defeat the King of Underworld. Every now and then, brave adventurers group together and desire to reveal the secrets of the void. However, never was there one that could return after entering it. 
+Inspired by a TV series, Pokemon (Untold Tales of the Void) is an open-world text-based RPG about the adventure in a fantasy world full of Pokemons. A giant void has been in the center of the island for several millions of years. No one knows clearly what is inside the void. Legends have said that only the most worthy Pokemon trainers can survive and defeat the King of Underworld inside the void. Every now and then, brave adventurers group together and desire to reveal the secrets of the void. However, never was there one that could return after entering it. 
 
 Britney is a new Pokemon trainer who just graduated from the Pokemon Academy. She lives in a village near to the void and she was fasinated to find out whats inside that deep giant hole. However, she was not convinced by the tales and rumours of the void. Therefore, she decided to go into the void on her own to find out. Out of curiousity, she sneaked into the void on a dark, foggy night. Without causing the attention of the entrance guards…
 
@@ -42,7 +42,8 @@ What will happen to Britney? Will she survive in the void? Will she defeat the K
 
 ### Gameplay system
 - Turn-based battle system for the Pokemon fight.
-- Actual damage dealt with by the enemies is dynamic and will be affected by a random percentage (e.g. +5% / -5%).
+- Players can navigate through the map and interact with items on the map using different keys
+- Actual damage dealt with by the enemies is dynamic and will be affected by a random percentage (about 1-5%).
 - These features fulfill the requirement of Generation of random game sets or events.
 
 ### Inventory System
@@ -55,3 +56,38 @@ What will happen to Britney? Will she survive in the void? Will she defeat the K
 - Different saving slots are available such that the players can restart the adventure without losing previous data.
 - malloc(), free() and delete() keywords will be used when handling data structures like plot dialogue and damage output.
 - This feature fulfills the requirement of Data structures for storing game status, Use of dynamic memory management and File input/output.
+
+
+
+## External Libraries Used
+- array
+- chrono
+- cmake
+- cmath
+- codecvt
+- csignal
+- cstdint
+- cstring
+- fstream
+- iostream
+- locale
+- NlohmannJson
+- optional
+- random
+- sstream
+- string
+- termios.h
+- utility
+- vector
+
+
+
+## Compilation and Execution Instructions
+- git clone https://github.com/adriantam123/ENGG1340_Sem2_Project_Group105.git
+- cd ENGG1340_Sem2_Project_Group105
+- ./Libraries/CMake/bin/cmake . && make && ./pokemon
+
+
+
+## Remarks
+- sample input / output files are not applicable as the game involves many random events (such as monsters appearing on the path randomly and various attack options). The user have to manually navigate the character using different keys, so no specific sample input / output can be provided.
