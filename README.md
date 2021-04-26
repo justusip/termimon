@@ -2,14 +2,14 @@
 
 - Group No.: 105
 - Group members: Ip Cheuk Wun Justus ( 3035789485 ) , Tam Chun Hoi Adrian ( 3035784758 )
-- Topic: Deep in Abyss 
+- Topic: Pokemon (Untold Tales of the Void)
 
 
 
 ## Game Description
-Inspired by a TV series, Deep in Abyss is an open-world text-based RPG about the adventure into the void. The giant void has been in the center of the island for several millions of years. No one knows clearly what is inside the void. Legends have said that only the most worthy warriors can survive and defeat the King of Underworld. Every now and then, brave adventurers group together and desire to reveal the secrets of the void. However, never was there one that could return after entering it. 
+Inspired by a TV series, Pokemon (Tales of the Void) is an open-world text-based RPG about the adventure into the void. The giant void has been in the center of the island for several millions of years. No one knows clearly what is inside the void. Legends have said that only the most worthy pokemon trainers can survive and defeat the King of Underworld. Every now and then, brave adventurers group together and desire to reveal the secrets of the void. However, never was there one that could return after entering it. 
 
-Britney lives in a village near to the void and she was fasinated to find out whats inside that deep giant hole. However, she was not convinced by the tales and rumours of the void. Therefore, she decided to go into the void on her own to find out. Out of curiousity, she sneaked into the void on a dark, foggy night. Without causing the attention of the entrance guards…
+Britney is a new Pokemon trainer who just graduated from the Pokemon Academy. She lives in a village near to the void and she was fasinated to find out whats inside that deep giant hole. However, she was not convinced by the tales and rumours of the void. Therefore, she decided to go into the void on her own to find out. Out of curiousity, she sneaked into the void on a dark, foggy night. Without causing the attention of the entrance guards…
 
 What will happen to Britney? Will she survive in the void? Will she defeat the King of Underworld? Let the journey begin!
 
@@ -18,14 +18,13 @@ What will happen to Britney? Will she survive in the void? Will she defeat the K
 ## Game rules
 - The player will play as Britney to explore the Endless Void.
 - Inside the void, players will be able to interact with different characters.
-- Players can choose to kill , escape or capture the monsters.
-- Players can navigate within the map.
+- Players can choose to kill , escape from the pokemons throughout the game.
+- Players will be able to upgrade their Pokemons through fighting other Pokemons'
+- Players can navigate within the map using arroww keys.
 - Players have to explore all 3 levels of the void.
 - Players can save their current game progress in the checkpoint of each level.
 - As players go deeper into the void, it will become more difficult and infested with dangerous monsters.
-- Level 1-2: both humans and monsters will appear in these levels, players can buy or upgrade their weapons and skills inside the shop run by the human characters, players     may encounter a few lucky human survivors which they can interact with.
-- Level 3: Only monsters will appear in this level.
-- At the end of level 3, players will have to fight the final boss to complete the game and acquire the ending.
+- At the end of Boss Map, players will have to fight the final boss to complete the game and acquire the ending.
 
 
 
