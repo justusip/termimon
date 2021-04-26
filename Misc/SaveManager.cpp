@@ -1,5 +1,6 @@
 #include "SaveManager.h"
 
+//for saving game progress
 nlohmann::json SaveManager::config = {
         {
                 "lastpoint", {

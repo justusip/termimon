@@ -1,5 +1,6 @@
 #include "Renderer.h"
 
+//renderer everything inside the game
 Renderer::Renderer() {
     canvasGlyphs = new char32_t[canvasWidth * canvasHeight];
     canvasFg = new Colour[canvasWidth * canvasHeight];

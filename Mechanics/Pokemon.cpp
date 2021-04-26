@@ -1,5 +1,6 @@
 #include "Pokemon.h"
 
+//for calculating pokemon XP, level, damage and health
 float Pokemon::getExp() const {
     return fmod((float) xp, 10.f) / 10.f;
 }

@@ -1,5 +1,6 @@
 #include "Arena.h"
 
+//character information
 const vector<Pokemon> Arena::ENEMIES_PLATEAU = {
         {
                 U"Nidoran",

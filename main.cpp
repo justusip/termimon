@@ -30,6 +30,7 @@
 #include "Interface/Terminal.h"
 #include "Misc/SaveManager.h"
 
+
 void onShutdown(int s) {
     Inputs::reset();
     Terminal::clearScreen();
@@ -38,6 +39,8 @@ void onShutdown(int s) {
     exit(s);
 }
 
+
+//main function
 int main() {
     struct sigaction sigIntHandler;
 

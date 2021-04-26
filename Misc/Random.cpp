@@ -2,6 +2,8 @@
 
 std::optional<std::mt19937>Random::gen = {};
 
+
+//generate random numbers
 void Random::seed() {
     std::random_device rd;
     std::mt19937::result_type seed = rd() ^(

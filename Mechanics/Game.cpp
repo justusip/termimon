@@ -1,5 +1,6 @@
 #include "Game.h"
 
+//for loading and navigating around the map
 using namespace std;
 
 void Game::start() {

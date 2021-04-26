@@ -3,6 +3,7 @@
 #include <unistd.h>
 #include <iostream>
 
+//managing user inputs
 using namespace std;
 
 struct termios Inputs::initial = {}, Inputs::current = {};
