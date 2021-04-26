@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.16.3)
 project(Pokemon)
 
 set(CMAKE_CXX_STANDARD 20)
-add_executable(rpg
+add_executable(pokemon
         main.cpp
         Interface/Inputs.cpp
         Interface/Terminal.cpp
