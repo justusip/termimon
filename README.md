@@ -2,12 +2,12 @@
 
 - Group No.: 105
 - Group members: Ip Cheuk Wun Justus ( 3035789485 ) , Tam Chun Hoi Adrian ( 3035784758 )
-- Topic: Pokemon ~Untold Tales of the Void~
+- Topic: Pokemon ~ Untold Tales of the Void ~
 
 
 
 ## Game Description
-Inspired by the game, Pokemon ~Untold Tales of the Void~ is an open-world text-based RPG about the adventure in a fantasy world full of Pokemons. A giant void has been in the center of the island for several millions of years. No one knows clearly what is inside the void. Legends have said that only the most worthy Pokemon trainers can survive and defeat the King of Underworld inside the void. Every now and then, brave adventurers group together and desire to reveal the secrets of the void. However, never was there one that could return after entering it. 
+Inspired by the game, Pokemon ~ Untold Tales of the Void ~ is an open-world text-based RPG about the adventure in a fantasy world full of Pokemons. A giant void has been in the center of the island for several millions of years. No one knows clearly what is inside the void. Legends have said that only the most worthy Pokemon trainers can survive and defeat the King of Underworld inside the void. Every now and then, brave adventurers group together and desire to reveal the secrets of the void. However, never was there one that could return after entering it. 
 
 Britney is a new Pokemon trainer who just graduated from the Pokemon Academy. She lives in a village near to the void and she was fasinated to find out whats inside that deep giant hole. However, she was not convinced by the tales and rumours of the void. Therefore, she decided to go into the void on her own to find out. Out of curiousity, she sneaked into the void on a dark, foggy night. Without causing the attention of the entrance guards…
 
