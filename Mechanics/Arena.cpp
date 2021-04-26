@@ -7,12 +7,12 @@ const vector<Pokemon> Arena::ENEMIES_PLATEAU = {
                 7,
                 Pokemon::Gender::FEMALE,
                 87,
-                12,
-                12,
+                16,
+                16,
                 {
                         {
                                 U"Tackle",
-                                U"Rage"
+                                U"Rage",
                                 U"Bide",
                                 U"Shock Wave"
                         }
@@ -24,11 +24,11 @@ const vector<Pokemon> Arena::ENEMIES_PLATEAU = {
                 Pokemon::Gender::MALE,
                 47,
                 16,
-                12,
+                16,
                 {
                         {
                                 U"Tackle",
-                                U"String shot"
+                                U"String shot",
                                 U"Bug Bite",
                                 U"Snore"
                         }
@@ -40,7 +40,7 @@ const vector<Pokemon> Arena::ENEMIES_PLATEAU = {
                 Pokemon::Gender::MALE,
                 68,
                 16,
-                12,
+                16,
                 {
                         {
                                 U"Absorb",
@@ -55,11 +55,10 @@ const vector<Pokemon> Arena::ENEMIES_PLATEAU = {
                 Pokemon::Gender::MALE,
                 96,
                 16,
-                12,
+                16,
                 {
                         {
                                 U"Poison Sting",
-                                U"String Shot"
                         }
                 }
         }
@@ -70,8 +69,8 @@ const vector<Pokemon> Arena::ENEMIES_FOREST = {
                 10,
                 Pokemon::Gender::FEMALE,
                 163,
-                12,
-                12,
+                16,
+                16,
                 {
                         {
                                 U"Gyro Ball	Steel",
@@ -87,12 +86,12 @@ const vector<Pokemon> Arena::ENEMIES_FOREST = {
                 Pokemon::Gender::MALE,
                 193,
                 16,
-                12,
+                16,
                 {
                         {
-                                U"U-turn"
-                                U"Screech"
-                                U"Thrash"
+                                U"U-turn",
+                                U"Screech",
+                                U"Thrash",
                                 U"Outrage"
                         }
                 }
@@ -103,7 +102,7 @@ const vector<Pokemon> Arena::ENEMIES_FOREST = {
                 Pokemon::Gender::MALE,
                 184,
                 16,
-                12,
+                16,
                 {
                         {
                                 U"Absorb",
@@ -118,7 +117,7 @@ const vector<Pokemon> Arena::ENEMIES_FOREST = {
                 Pokemon::Gender::MALE,
                 174,
                 16,
-                12,
+                16,
                 {
                         {
                                 U"Splash",
@@ -134,8 +133,8 @@ const vector<Pokemon> Arena::ENEMIES_CLIFFS = {
                 2,
                 Pokemon::Gender::FEMALE,
                 294,
-                12,
-                12,
+                16,
+                16,
                 {
                         {
                                 U"Rain Dance",
@@ -151,12 +150,12 @@ const vector<Pokemon> Arena::ENEMIES_CLIFFS = {
                 Pokemon::Gender::MALE,
                 299,
                 16,
-                12,
+                16,
                 {
                         {
-                                U"Take Down"
-                                U"Charm	Fairy"
-                                U"Double-Edge"
+                                U"Take Down",
+                                U"Charm	Fairy",
+                                U"Double-Edge",
                                 U"Last Resort"
                         }
                 }
@@ -167,7 +166,7 @@ const vector<Pokemon> Arena::ENEMIES_CLIFFS = {
                 Pokemon::Gender::MALE,
                 249,
                 16,
-                12,
+                16,
                 {
                         {
                                 U"Shell Smash",
@@ -183,7 +182,7 @@ const vector<Pokemon> Arena::ENEMIES_CLIFFS = {
                 Pokemon::Gender::MALE,
                 295,
                 16,
-                12,
+                16,
                 {
                         {
                                 U"Hyper Beam",
@@ -211,7 +210,7 @@ void Arena::onUpdate(Renderer &r, const int &elapsed) {
                     r.ask(U"What move will you use?",
                           self.attacks,
                           [&](const int choice) {
-                              enemy.damage(floor(5 + self.getLevel() * Random::rand(5, 10) / 10));
+                              enemy.damage(floor(5 + Random::rand(5, 10)));
                               r.tell(self.name + U" used " + self.attacks[choice] + U"! It is extremely effective!",
                                      true,
                                      [&]() {
@@ -250,7 +249,7 @@ void Arena::onUpdate(Renderer &r, const int &elapsed) {
         turn = 0;
     } else if (turn == 2) {
         int attack = floor(Random::rand() * enemy.attacks.size());
-        self.damage(floor(5 + enemy.getLevel() * Random::rand(5, 10) / 10));
+        self.damage(floor(5 + Random::rand(5, 10)));
         std::vector<u32string> adjective = {
                 U"kinda",
                 U"quite",

@@ -51,6 +51,8 @@ void Game::start() {
                                           appearProbability = defaultProbability;
                                           if (status == 0)
                                               teleportToHeal();
+                                          else
+                                              inv.getPrimary().xp += 10;
                                       });
                             state = State::COMBAT;
                         }
