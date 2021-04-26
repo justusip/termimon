@@ -7,7 +7,7 @@
 
 
 ## Game Description
-Inspired by a TV series, Pokemon (Tales of the Void) is an open-world text-based RPG about the adventure into the void. The giant void has been in the center of the island for several millions of years. No one knows clearly what is inside the void. Legends have said that only the most worthy pokemon trainers can survive and defeat the King of Underworld. Every now and then, brave adventurers group together and desire to reveal the secrets of the void. However, never was there one that could return after entering it. 
+Inspired by a TV series, Pokemon (Untold Tales of the Void) is an open-world text-based RPG about the adventure in a fantasy world full of Pokemons. A giant void has been in the center of the island for several millions of years. No one knows clearly what is inside the void. Legends have said that only the most worthy Pokemon trainers can survive and defeat the King of Underworld. Every now and then, brave adventurers group together and desire to reveal the secrets of the void. However, never was there one that could return after entering it. 
 
 Britney is a new Pokemon trainer who just graduated from the Pokemon Academy. She lives in a village near to the void and she was fasinated to find out whats inside that deep giant hole. However, she was not convinced by the tales and rumours of the void. Therefore, she decided to go into the void on her own to find out. Out of curiousity, she sneaked into the void on a dark, foggy night. Without causing the attention of the entrance guards…
 
@@ -16,15 +16,20 @@ What will happen to Britney? Will she survive in the void? Will she defeat the K
 
 
 ## Game rules
-- The player will play as Britney to explore the Endless Void.
-- Inside the void, players will be able to interact with different characters.
-- Players can choose to kill , escape from the pokemons throughout the game.
-- Players will be able to upgrade their Pokemons through fighting other Pokemons'
-- Players can navigate within the map using arroww keys.
-- Players have to explore all 3 levels of the void.
+
+### Background information
+- The player will play as Britney to explore the Void.
+- Players will be able to interact with different characters inside the Void map.
+- Players can choose to kill or escape from the pokemons throughout the game.
+- Players will be able to upgrade their own Pokemons through fighting other Pokemons.
 - Players can save their current game progress in the checkpoint of each level.
-- As players go deeper into the void, it will become more difficult and infested with dangerous monsters.
-- At the end of Boss Map, players will have to fight the final boss to complete the game and acquire the ending.
+- Players have to explore all 3 levels of the void. As players go deepe, it will become more difficult and infested with dangerous monsters. Players will have to fight the final boss to complete the game and acquire the ending.
+
+### Basic Controls
+- Navigating within the map using W,A,S,D keys.
+- Choosing different dialogues or attacks using arrow keys.
+- Interacting with different game events (e.g. game characters and checkpoint) using "Space" bar.
+- Confirming your choices using "Enter" key.
 
 
 
@@ -36,17 +41,17 @@ What will happen to Britney? Will she survive in the void? Will she defeat the K
 - This feature fulfills the requirement of Generation of random game sets or events, File input/output, and Program code in multiple files.
 
 ### Gameplay system
+- Turn-based battle system for the Pokemon fight.
 - Actual damage dealt with by the enemies is dynamic and will be affected by a random percentage (e.g. +5% / -5%).
-- Buffs, debuffs, and critical rates will be implemented into the game. The effects of various buffs and debuffs are randomized.
 - These features fulfill the requirement of Generation of random game sets or events.
 
 ### Inventory System
-- Items purchased from the stores can be stored inside the inventory system.
-- Attributes such as durability and damage can also be stored per item.
+- Pokeballs that are used to capture Pokemons can be stored inside the inventory system.
+- Attributes such as health, damage and experience points (XP) will be stored individually for each Pokemon.
 - This feature fulfills the requirement of Data structures for storing game status.
 
 ### Game Saving/Loading System
-- The game’s current state including the player’s progress and status such as health and experience can be saved into an external file. It can then be retrieved next time the game starts.
+- The game’s current state including the player’s progress and Pokemon status such as health and XP will be saved into an external file.
 - Different saving slots are available such that the players can restart the adventure without losing previous data.
 - malloc(), free() and delete() keywords will be used when handling data structures like plot dialogue and damage output.
 - This feature fulfills the requirement of Data structures for storing game status, Use of dynamic memory management and File input/output.
