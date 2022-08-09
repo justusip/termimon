@@ -15,9 +15,6 @@
  *
  *  ENGG1340 Project Section 2DE
  *  Group 105
- *
- *  Ip Cheuk Wun Justus
- *  Tam Chun Hoi Adrian
  */
 
 
