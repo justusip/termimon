@@ -1,7 +1,7 @@
 # Termimon
 
 <a href="https://www.youtube.com/watch?v=9Nd86T34248">
-    <img src=".gitres/thumbnail.jpeg" alt="Thumbnail" width="400px" />
+    <img src="docs/thumbnail.jpeg" alt="Thumbnail" width="400px" />
 </a>
 
 [Demo Video](https://www.youtube.com/watch?v=9Nd86T34248)
@@ -61,10 +61,10 @@ cmake .
 make
 ```
 
-4. Start the game
+4. Locate the built binary and start the game
 
 ```
-./pokemon
+./termimon
 ```
 
 ## Controls
@@ -76,7 +76,7 @@ make
 
 ## Screenshots
 
-<img src=".gitres/screenshot-01.jpeg" alt="Screenshot" width="400px" />
-<img src=".gitres/screenshot-02.jpeg" alt="Screenshot" width="400px" />
-<img src=".gitres/screenshot-03.jpeg" alt="Screenshot" width="400px" />
-<img src=".gitres/screenshot-04.jpeg" alt="Screenshot" width="400px" />
+<img src="docs/screenshot-01.jpeg" alt="Screenshot" width="400px" />
+<img src="docs/screenshot-02.jpeg" alt="Screenshot" width="400px" />
+<img src="docs/screenshot-03.jpeg" alt="Screenshot" width="400px" />
+<img src="docs/screenshot-04.jpeg" alt="Screenshot" width="400px" />

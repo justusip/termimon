@@ -2,19 +2,19 @@ cmake_minimum_required(VERSION 3.16.3)
 project(Pokemon)
 
 set(CMAKE_CXX_STANDARD 20)
-add_executable(pokemon
-        main.cpp
-        Interface/Inputs.cpp
-        Interface/Terminal.cpp
-        Interaction/Prompt.cpp
-        Interaction/Dialogue.cpp
-        Mechanics/Arena.cpp
-        Mechanics/Game.cpp
-        Mechanics/Pokemon.cpp
-        Mechanics/Renderer.cpp
-        Misc/Random.cpp
-        Misc/Utils.cpp
-        Visuals/Colour.cpp
-        Misc/SaveManager.cpp
-        Mechanics/Inventory.cpp
+add_executable(termimon
+        src/main.cpp
+        src/Interface/Inputs.cpp
+        src/Interface/Terminal.cpp
+        src/Interaction/Prompt.cpp
+        src/Interaction/Dialogue.cpp
+        src/Mechanics/Arena.cpp
+        src/Mechanics/Game.cpp
+        src/Mechanics/Pokemon.cpp
+        src/Mechanics/Renderer.cpp
+        src/Misc/Random.cpp
+        src/Misc/Utils.cpp
+        src/Visuals/Colour.cpp
+        src/Misc/SaveManager.cpp
+        src/Mechanics/Inventory.cpp
         )
